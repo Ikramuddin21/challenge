@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(43, 128, 226, 0.815);
+}
+
+p {
+    color: rgb(75, 73, 73);
+}
+
+.container {
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateY(50%);
+}
+
+[role="tabs"] {
+    margin-top: 20px;
+}
+
+[role="tablist"] {
+    margin-bottom: 20px;
+
+}
+
+[role="tab"] {
+    margin-right: 15px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+[aria-selected="true"] {
+    color: white;
+    background-color: rgba(43, 128, 226, 0.815);
+}
